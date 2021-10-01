@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+body {
+  background-color: rgb(232, 233, 238);
+  font-family: 'Montserrat', sans-serif
+}
+#portfolio__info {
+  position: relative;
+  bottom: 0;
+}
+#logo__image {
+  border-radius: 50%;
+  height: 200px;
+  align-self: center;
+  text-align: center;
+  align-items: center;
+}
+#myname {
+  font-family: "Orbitron", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+#portfolio__bio {
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 600px;
+}
+#back-to-website {
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: right;
+  align-items: center;
+  color: rgb(79, 135, 219);
+  text-decoration: none;
+  position: relative;
+  right: 0;
+  max-width: fit-content;
+}
+#back-to-website:hover {
+  padding-left: 5px;
+  transition: 0.4s;
+}
+.portfolio__link {    
+  padding-right: 1rem;
+
+}
+.portfolio__link:hover{
+    transform: translateY(-4px);
+    transform: .4s;
+}
+.shadow-box {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 3px;
+}
+
+.ContributionCalendar-label{
+  color: #333;
+}
+
+.geolocation{
+  color: #333;
+}
+
+.header-title{
+  font-size: 24px;
+  font-weight: 700;
+}
+.progress{
+  height: 16px;
+  border-radius: 3px;
+}
+.skill-title{
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(105, 106, 107);
+  position: relative;
+  margin-top: 0;
+}
+.skill-value{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(119, 118, 118);
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+.eduaction .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(105, 106, 107);
+  position: relative;
+  margin-top: 0;
+}
+
+.eduaction .degree{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(105, 106, 107);
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.eduaction .graduation-date{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(105, 106, 107);
+  position: relative;
+  margin-top: 0;
+  margin-left: 10px
+}
+
+.certificate .title {
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(105, 106, 107);
+  position: relative;
+  margin-top: 0;
+  text-decoration: none;
+
+}
+.certificate a:hover {
+    color: rgb(79, 135, 219);;
+}
+
+.language .title {
+  font-size: 19px;
+  font-weight: 600;
+  color: rgb(105, 106, 107);
+  position: relative;
+  margin-top: 0;
+  text-decoration: none;
+}
+
+.language .level-text{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(105, 106, 107);
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.tool .title{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(105, 106, 107);
+    position: relative;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.language .level{
+  color: rgb(79, 135, 219);
+  margin-left: 10px;
+}
+
+.main-project .project-title, .main-project .project-link {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(105, 106, 107);
+  position: relative;
+  text-decoration: none;
+}
+
+.main-project .project-title:hover {
+  color: rgb(79, 135, 219);
+}
+
+.footer{
+  height: 60px;
+  background-color: rgb(76, 74, 92);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(233, 233, 233);
+  align-items: center;
+}
