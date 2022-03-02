@@ -188,3 +188,8 @@ body {
   color: rgb(233, 233, 233);
   align-items: center;
 }
+
+.header-link{
+  text-decoration: none;
+  padding-right: 1rem;
+}
